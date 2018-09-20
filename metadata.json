@@ -1,0 +1,37 @@
+{
+  "name": "jadestorm-sophos_av",
+  "version": "0.1.0",
+  "author": "jadestorm",
+  "summary": "Installation and configuration of Sophos Antivirus for Servers",
+  "license": "Apache-2.0",
+  "source": "https://github.com/jadestorm/puppet-sophos_av",
+  "project_page": "https://github.com/jadestorm/puppet-sophos_av",
+  "issues_url": "https://github.com/jadestorm/puppet-sophos_av/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 3.0.0 < 5.0.0"
+    },
+    {
+      "name": "puppet-archive",
+      "version_requirement": ">= 3.0.0 < 4.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "7.0"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.7.0 < 6.0.0"
+    }
+  ],
+  "pdk-version": "1.6.1",
+  "template-url": "https://github.com/puppetlabs/pdk-templates",
+  "template-ref": "heads/master-0-ga6441eb"
+}
